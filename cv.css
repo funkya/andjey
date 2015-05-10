@@ -1,0 +1,250 @@
+ body{
+	font-family: georgia;
+	background-image: url(image/a.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 120%;
+/* body ini untuk mengatur background */
+}
+#topbar{
+	width: 100%;
+	height: 45px;
+	background-color: gray;
+	position: fixed;
+	margin: -10px;
+	padding: 10px;
+	z-index: 100;
+/*untuk mengatur background head di login */
+}
+.login{
+	margin: 10px auto;
+	margin-top: -4px;
+	position: fixed;
+	float: left;
+	z-index: 5;
+/* untuk mengatur posisi login di head */
+}
+.ghost{
+	width: 150px;
+	height: 18px;
+	padding: 8px;
+	background-color: #fff;
+	border: 1px solid #67482b;
+	text-align: center;
+	outline: none;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: black;
+	cursor: hand;
+	margin: auto 10px;
+	box-shadow:inset 0px 5px 7px #CBCCC4;
+	border-radius:7px;
+/* untuk mengatur yang ada pada login */
+}
+.btn{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	font-size: 15px;
+	cursor: hand;
+	border:1px solid #BFC1B7;
+	padding:5px 10px;
+	border-radius: 3px;
+	color:#5B5E51;
+	font-weight: bold;
+	margin-top: 10px;
+/* untuk mengatur tombol login*/
+}
+	.login .in input[type="submit"]:hover{
+	color:#333;
+	cursor: pointer;
+	box-shadow: 0px 0px 7px #AAE8F4;
+}
+#menu{
+	float: right;
+	width: 100%;
+	margin: auto 20px;
+}
+.pilih{
+	width: 130px;
+	height: 43px;
+	float: right;
+	background-color: gray;
+	text-align: center;
+	margin-top: -8px;
+	padding-top: 20px;
+}
+.pilih a{
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px auto;
+}
+.pilih:hover a{
+	color: blue;
+}
+/*pilih ini untuk mrngatur semua tampilan yang di head, sesuai yang kita inginkan*/
+#pagewarp{
+	margin: 50px -10px -10px 0px; 
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: 1;
+	float: left;
+/*mengatur background yang ada di beranda*/
+}
+#beranda{
+	margin-top: -300px;
+	width: 100%;
+	height: 700px;
+/*untuk menampilkan beranda*/
+}
+#tentang{
+	width: 50%;
+	height: 600px;
+	z-index: 1;
+	background-color: black;
+	margin: 21px 0px;
+	padding-top: 30px;
+	text-align: center;
+/*mengatur ukuran background dan lebar tingginya*/
+}
+#tentang p{
+	color: white;
+	font-size: 20px;
+	font-family: align;
+	text-align: justify;
+	float: right;
+	margin: 10px;
+/* mengatur cerita yang ada di tentang saya*/
+}
+#tentang h1{
+	color: white;
+	text-align: center;
+	font-family: align;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 50px;
+	margin: 10px;
+/* mengatur besar kecil huruf dan warna di tentang saya*/
+}
+#pengalaman{
+	background-color: black; 
+	width: 50%;
+	height: 600px;
+	z-index: 1;
+	margin: -100px 0px ;
+	padding-top: 30px;
+/*menngatur warna background dan lebar tingginya  bacground*/
+
+}
+#pengalaman h1{
+	color: white;
+	text-align: center;
+	font-family: align;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 50px;
+	margin-bottom: 0px; 
+/* untuk mengatur besar kecil huruf, posisi, dan warna*/
+}
+#colum{
+	width: 500px;
+	height: 400px;
+	color: white;
+	background-color: transparent;
+	border-radius: 0px 30px;
+	margin: 0px auto 0px 50px;
+	position: absolute;
+/* meperbagus isi di dalam pengalaman*/
+}
+#hubungi{
+	width: 50%;
+	height: 700px;
+	background-color: black;
+	z-index: 1;
+	margin: -300px 0px;
+	color: white;
+	font-size: 50px;
+/*mengatur background,posisi, dan warna*/
+}
+#hubungi h1{
+	color: white;
+	text-align: center;
+	font-family: align;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 50px;
+	margin-bottom: 0px ; 
+/*mengatur huruf hubungi saya */
+}
+.kontak{
+	width: 200px;
+	height: auto;
+	background-color: black;
+	float: left;
+	margin: 20px 60px 20px 60px;
+	color: white;
+	font-size: 15px;
+/*mengatur background, posisi, besar kecil huruf dan warna di kontak*/
+}
+#portopolio{
+	width: 100%;
+	height: 700px;
+	background-color: black;
+	z-index: 1;
+	margin: -500px -580px 0px 0px;
+	color: white;
+	font-size: 50px;
+	position: relative;
+/*mengatur background, posisi, besar kecil huruf dan warna di portopolio*/
+}
+#pp {
+	width: 200px;
+	height: 200px;
+	margin: -20px 10px 20px 0;
+	position: relative;
+/*mengatur posisi foto, lebar dan tingginya*/
+}
+#pp img{
+	width: 200px;
+	height: auto;
+	border: 3px solid black;
+    float: left;
+	transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+/* mengatur tinggi dan lebar nya foto*/
+}
+#pp:hover img{
+	border: 5px solid white;
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+/* pp hover img ini untuk mepercantik foto, jika kita sentuh maka foto akan kelihatan bergerak kedepan*/
+}
+#beranda h1{
+	font-family: align;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 100px;
+	color: white;
+	position: fixed;
+	z-index: -1;
+	text-shadow: 0px 10px 12px white;
+	margin: 750px 0px 200px 250px;
+/*mengatur posisi, byangan teks, dan ukuran huruf welcome to the cv*/
+}
+
+
